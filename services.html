@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - OurSoulss</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">OurSoulss</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">We Here</a></li>
+                <li><a href="services.html">We Console</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">We Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h1>Our Services</h1>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="https://i.ibb.co/0VCpHP2/2-professional-Thearpy-2nd.png" alt="Professional Therapy" class="service-image">
+                    <h2>PROFESSIONAL THERAPY</h2>
+                    <p class="service-tagline">Let's lighten your load together. Are you ready?</p>
+                    <div class="service-details">
+                        <p>A professional therapist supports you in creating strategies to overcome personal challenges, including mental health issues like depression, stress, and anxiety, among others. Our therapists are here to guide you through these challenges, helping you navigate life's difficulties. Let's collaborate to ease your burdens and uplift your spirits.</p>
+                        <ul>
+                            <li>50 Minute session with a professional Therapist</li>
+                            <li>Implement personal strategies and advice</li>
+                            <li>Discuss your concerns openly and safely</li>
+                            <li>Receive insights with renewed professional perspectives</li>
+                        </ul>
+                    </div>
+                    <button onclick="initializeRazorpay(1699, 'Professional Therapy')" class="cta-button">Get Started</button>
+                    <p class="price">Starting @1,699/month</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://i.ibb.co/7J4F6Xn/3-non-professional-therapy-3rd.png" alt="Non-Professional Therapy" class="service-image">
+                    <h2>NON-PROFESSIONAL THERAPY</h2>
+                    <p class="service-tagline">Looking to make your journey a little easier?</p>
+                    <div class="service-details">
+                        <p>A non-professional therapist can provide a supportive and understanding presence, helping you navigate and overcome your challenges while ensuring you feel acknowledged, understood, and free from judgment, providing empathy to help you feel better.</p>
+                        <ul>
+                            <li>50 Minute session with a non-professional Therapist</li>
+                            <li>Use this session as a safe space to vent and discuss your problems</li>
+                            <li>Complete Therapist provided tasks and activities</li>
+                            <li>We listen to you throughout the process</li>
+                        </ul>
+                    </div>
+                    <button onclick="initializeRazorpay(599, 'Non-Professional Therapy')" class="cta-button">Get Started</button>
+                    <p class="price">Starting @599/month</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@oursoulss.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2023 OurSoulss. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
